@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nom de la Page</title>
+    <style>
+        /* Style du titre personnalisé */
+        /* Style du titre avec un dégradé de couleurs réaliste */
+        /* Style du titre avec un mélange de dégradé de couleurs jaune, rose et bleu, et une taille de police réduite */
+        h1 {
+            background: linear-gradient(to right, #FFD700, #FF69B4, #1E90FF); /* Du jaune au rose au bleu */
+            -webkit-background-clip: text;
+            color: black; /* Texte en noir */
+            font-size: 1.5rem; /* Ajustez la taille de la police selon vos préférences */
+            font-family: 'Pacifico', cursive; /* Utilisation de la police Pacifico */
+        }
+
+
+    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/customStyles.css"> <!-- Assurez-vous que le chemin est correct -->
+
+    <style>
+        .date {
+            font-size: 1.2rem;
+            margin-top: 5px; /* Marge pour déplacer la date vers le bas */
+            font-weight: bold; /* Texte en gras */
+            color: #C0001A;
+        }
+        .weather-card {
+            background-size: cover;
+            background-position: center;
+            transition: background-color 0.5s ease;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .sunny-background,
+        .cloudy-background,
+        .snowy-background,
+        .mist-background {
+            background-color: rgba(255, 255, 255, 0.2); /* Fond transparent */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card {
+            width: 600px; /* Ajustez la largeur comme vous le souhaitez */
+            margin: auto; /* Pour centrer horizontalement la carte */
+        }
+
+        .weather-icon {
+            font-size: 3rem;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            font-weight: bold;
+            color: black !important; /* Force la couleur du texte en noir */
+        }
+
+        .weather-details p {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: black !important;
+        }
+
+        .icon {
+            font-size: 2rem;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        /* Ajout de styles pour les icônes sunrise et sunset */
+        .sunrise-icon,
+        .sunset-icon {
+            color: #FFA500 !important; /* Couleur orangée pour les icônes */
+        }
+
+        /* Ajoutez cette classe pour l'icône d'humidité en bleu */
+        .blue-icon {
+             color: #007FFF !important;
+        }
+
+        /* Bouton avec la même couleur que le titre et une taille réduite */
+        /* Dégradé de couleurs pour le bouton .btn-primary */
+        /* Style amélioré du bouton */
+        /* Style du bouton en rouge avec une taille de police réduite */
+        .btn-primary {
+            background: #FF0000; /* Rouge */
+            border: none;
+            font-size: 0.8rem; /* Taille de police réduite (ajustez la valeur selon vos préférences) */
+            color: white;
+            text-transform: uppercase;
+            padding: 8px 16px; /* Marge intérieure réduite (ajustez la valeur selon vos préférences) */
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            /* Lorsque le curseur survole le bouton, changez la couleur de fond */
+            .btn-primary:hover {
+                background: #FF4500; /* Rouge légèrement plus foncé au survol */
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card weather-card text-center" id="weather-card">
+                    <div class="card-body">
+                        <h1>Météo pour @Model.Name</h1>
+                        <p class="date" id="current-date"></p>
+                        <div class="weather-icon mb-2"></div> <!-- Icône sous le titre -->
+                        <h3 class="card-text" style="font-size: 1.8rem;">@Model.Temperature&deg;C</h3>
+                        <div class="weather-details my-4">
+                            <p><strong>Pays:</strong> <span style="color: red; font-weight: bold;">@Model.country</span></p>
+
+
+
+                            <p><div class="icon-wrapper sunrise-icon"><i class="wi wi-sunrise"></i></div><strong>Lever du Soleil:</strong> @Model.Sunrise</p>
+                            <p><div class="icon-wrapper sunset-icon"><i class="wi wi-sunset"></i></div><strong>Coucher du Soleil:</strong> @Model.Sunset</p>
+                            <!-- Utilisez la classe blue-icon pour l'icône d'humidité en bleu -->
+                            <p><div class="icon-wrapper humidity-icon blue-icon"><i class="wi wi-humidity"></i></div><strong>Humidité:</strong> @Model.Humidity%</p>
+                            <p><div class="icon-wrapper pressure-icon"><i class="wi wi-barometer"></i></div><strong>Pression:</strong> @Model.Pressure Hpa</p>
+                            <p><div class="icon-wrapper wind-icon"><i class="wi wi-strong-wind"></i></div><strong>Vent:</strong> @Model.Wind km/h</p>
+                            <p><div class="icon-wrapper condition-icon"><i class="wi wi-cloud"></i></div><strong>Conditions:</strong> @Model.Weather</p>
+                        </div>
+
+                        <form method="get" asp-controller="WeatherForecast" asp-action="SearchByCity">
+                            <button type="submit" class="btn btn-primary">Retour</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var weatherCondition = '@Model.Weather';
+            var weatherCard = $('#weather-card');
+            var weatherIcon = $('.weather-icon');
+
+            if (weatherCondition.includes('Clear')) {
+                weatherCard.addClass('sunny-background');
+                weatherIcon.removeClass().addClass('wi wi-day-sunny weather-icon').css('color', '#FFD700');
+
+
+            } else if (weatherCondition.includes('Clouds')) {
+                weatherCard.addClass('cloudy-background');
+                weatherIcon.removeClass().addClass('wi wi-cloud weather-icon');
+            } else if (weatherCondition.includes('Snow')) {
+                weatherCard.addClass('snowy-background');
+                weatherIcon.removeClass().addClass('wi wi-snowflake-cold weather-icon');
+            } else if (weatherCondition.includes('Mist')) {
+                weatherCard.addClass('mist-background');
+                weatherIcon.removeClass().addClass('wi wi-fog weather-icon');
+            } else {
+                // Gérez d'autres conditions météo ici
+            }
+        });
+    </script>
+    <script>
+        // Script pour afficher la date actuelle
+        var currentDate = new Date();
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var formattedDate = currentDate.toLocaleDateString('fr-FR', options);
+        document.getElementById('current-date').textContent = 'Le : ' + formattedDate;
+    </script>
+</body>
+</html>

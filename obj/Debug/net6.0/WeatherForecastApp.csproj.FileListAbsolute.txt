@@ -1,0 +1,68 @@
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\appsettings.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.staticwebassets.runtime.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.exe
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.deps.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.runtimeconfig.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.pdb
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.AssemblyInfo.cs
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.RazorAssemblyInfo.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.RazorAssemblyInfo.cs
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.WeatherForecastApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.build.WeatherForecastApp.props
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WeatherForecastApp.props
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WeatherForecastApp.props
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\scopedcss\bundle\WeatherForecastApp.styles.css
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\scopedcss\projectbundle\WeatherForecastApp.bundle.scp.css
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\refint\WeatherForecastApp.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.pdb
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.genruntimeconfig.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\ref\WeatherForecastApp.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\bin\Debug\net6.0\RestSharp.dll
+C:\Users\dell\Desktop\dot net\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.CopyComplete
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.staticwebassets.runtime.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.exe
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.deps.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.runtimeconfig.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.dll
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\WeatherForecastApp.pdb
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.AssemblyReference.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.AssemblyInfoInputs.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.AssemblyInfo.cs
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.RazorAssemblyInfo.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.RazorAssemblyInfo.cs
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.WeatherForecastApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.build.WeatherForecastApp.props
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WeatherForecastApp.props
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WeatherForecastApp.props
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\scopedcss\bundle\WeatherForecastApp.styles.css
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\scopedcss\projectbundle\WeatherForecastApp.bundle.scp.css
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.csproj.CopyComplete
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.dll
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\refint\WeatherForecastApp.dll
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.pdb
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\WeatherForecastApp.genruntimeconfig.cache
+C:\Users\Pc\Downloads\WeatherForecastApp (5) (1)\WeatherForecastApp\obj\Debug\net6.0\ref\WeatherForecastApp.dll

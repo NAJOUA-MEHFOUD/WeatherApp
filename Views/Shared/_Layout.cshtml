@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/customStyles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WeatherForecastApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/customStyles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WeatherForecastApp.styles.css" asp-append-version="true" />
+    <style>
+        /* CSS pour masquer le titre "WeatherForecastApp" dans la barre de navigation */
+        .navbar-brand {
+            display: none;
+        }
+
+        /* CSS pour ajouter un fond animé avec des nuages qui bougent */
+        body {
+            background-image: linear-gradient(to bottom, #b2dbeb, #a1c9e0, #91b7d5, #81a5ca, #7193bf);
+            /* Le dégradé ci-dessus évoque les couleurs apaisantes du ciel */
+            background-repeat: repeat;
+            /* Répétez le dégradé de couleur verticalement */
+            background-blend-mode: multiply;
+            /* Utilisez le mode de fusion "multiply" pour mélanger les images de nuages avec le fond */
+            opacity: 0.9; /* Ajustez l'opacité des nuages selon vos préférences */
+            color: #333; /* Couleur du texte pour une bonne lisibilité sur le fond */
+            animation: moveClouds 20s linear infinite; /* Applique l'animation des nuages */
+            animation-duration: 20s; /* Réglez la vitesse de l'animation des nuages */
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

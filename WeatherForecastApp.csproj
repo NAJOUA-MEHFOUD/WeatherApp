@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\dell\.nuget\packages\bootstrap\5.3.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css" />
+    <Content Remove="C:\Users\dell\.nuget\packages\bootstrap\5.3.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\images\cloud1.jpg" />
+    <None Remove="Views\Shared\images\cloud2.jpg" />
+    <None Remove="Views\Shared\images\cloud3.jpg" />
+    <None Remove="Views\Shared\images\clouds.jpg" />
+    <None Remove="Views\Shared\images\cloudy.jpeg" />
+    <None Remove="Views\Shared\images\mist.jpg" />
+    <None Remove="Views\Shared\images\sunny.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Shared\images\cloud1.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\cloud2.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\cloud3.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\clouds.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\cloudy.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\mist.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\images\sunny.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.2" />
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="jQuery" Version="3.7.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
+
+</Project>

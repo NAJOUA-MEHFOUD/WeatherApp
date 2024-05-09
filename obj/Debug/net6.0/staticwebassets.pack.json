@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WeatherForecastApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WeatherForecastApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud1.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud2.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud3.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud4.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud5.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\cloud6.jpg",
+      "PackagePath": "staticwebassets\\css\\cloud6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\customStyles.css",
+      "PackagePath": "staticwebassets\\css\\customStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\images\\cloud1.jpg",
+      "PackagePath": "staticwebassets\\images\\cloud1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\images\\clouds.jpg",
+      "PackagePath": "staticwebassets\\images\\clouds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\images\\cloudy.jpeg",
+      "PackagePath": "staticwebassets\\images\\cloudy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\images\\mist.jpg",
+      "PackagePath": "staticwebassets\\images\\mist.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\images\\sunny.jpg",
+      "PackagePath": "staticwebassets\\images\\sunny.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Downloads\\WeatherForecastApp (5) (1)\\WeatherForecastApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WeatherForecastApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WeatherForecastApp.props",
+      "PackagePath": "build\\WeatherForecastApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WeatherForecastApp.props",
+      "PackagePath": "buildMultiTargeting\\WeatherForecastApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WeatherForecastApp.props",
+      "PackagePath": "buildTransitive\\WeatherForecastApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

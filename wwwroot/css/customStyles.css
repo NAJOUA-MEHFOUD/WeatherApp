@@ -1,0 +1,38 @@
+﻿/* Appliquez l'animation des nuages à l'arrière-plan */
+.cloudy-background {
+    /* Autres styles de fond bleu ciel ou de votre choix */
+    background-color: #87CEEB; /* Bleu ciel */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    /* Définissez l'animation des nuages */
+    animation: moveClouds 10s linear infinite; /* Réglez la durée et le mode d'animation selon vos besoins */
+}
+
+body {
+    /* Autres styles de fond bleu ciel ou de votre choix */
+    background-color: #E1F7FF; /* Bleu ciel */
+    background-size: cover;
+    background-position: center;
+    /* Définissez l'animation des nuages */
+    animation: moveClouds 15s linear infinite; /* Réglez la durée et le mode d'animation selon vos besoins */
+}
+/* Définissez l'animation des nuages avec @keyframes */
+@keyframes moveClouds {
+    0% {
+        background-image: url('cloud1.jpg');
+    }
+
+    33% {
+        background-image: url('cloud2.jpg');
+    }
+
+    66% {
+        background-image: url('cloud1.jpg');
+    }
+
+    100% {
+        background-image: url('cloud2.jpg');
+    }
+}

@@ -1,0 +1,172 @@
+﻿@model WeatherForecastApp.Models.SearchByCity
+@{
+    ViewData["Title"] = "Recherche par Ville";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('sky.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .welcome-text {
+          
+            font-family: 'Nom de la police', sans-serif;
+            font-size: 36px;
+            color: #007bff;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #007bff, #0056b3);
+            -webkit-background-clip: text;
+            color: transparent;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .welcome-text:hover {
+                transform: scale(1.1);
+            }
+
+        .search-box {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 450px;
+            width: 100%;
+            margin: auto;
+        }
+
+        .search-box h2 {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .form-control {
+            border: none;
+            border-bottom: 2px solid #007bff;
+            border-radius: 0;
+            box-shadow: none;
+            margin-bottom: 20px;
+            height: 48px;
+        }
+
+        .form-control:focus {
+            border-color: #66afe9;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .weather-icons {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-text ">Bienvenue sur votre application météo, votre compagnon météorologique au quotidien.</div>
+    <div class="search-box">
+        <h2>Veuillez choisir la ville</h2>
+        <form method="post" asp-controller="WeatherForecast" asp-action="SearchByCity">
+            <div>
+                <input asp-for="CityName" id="CityName" class="form-control" placeholder="Entrez le nom de la ville..." />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary" style="font-size: 12px; padding: 10px 20px; margin-right: 30px; margin-left :20px">Rechercher</button>
+
+
+
+
+            <a href="#" id="current-location-link" class="btn btn-secondary">Localisation actuelle</a>
+        </form>
+        <div class="weather-icons">
+            <i class="fas fa-cloud"></i> <!-- Icône de nuage -->
+            <i class="fas fa-sun"></i> <!-- Icône de soleil -->
+            <i class="fas fa-cloud-sun"></i> <!-- Icône de nuage et soleil -->
+            <i class="fas fa-cloud-rain"></i> <!-- Icône de nuage et pluie -->
+            <i class="fas fa-snowflake"></i> <!-- Icône de flocon de neige -->
+            <i class="fas fa-bolt"></i> <!-- Icône d'éclair -->
+            <!-- Ajoutez d'autres icônes météorologiques ici -->
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour obtenir la localisation actuelle de l'utilisateur
+        function getCurrentLocation() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    // Récupérer les coordonnées de latitude et de longitude
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    // Envoyer ces coordonnées au service de géolocalisation pour obtenir le nom de la ville
+                    fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            // Extraire le nom de la ville à partir des données de réponse
+                            var cityName = data.address.city;
+
+                            // Mettre le nom de la ville dans le champ CityName
+                            document.getElementById("CityName").value = cityName;
+
+                            // Envoyer le formulaire pour obtenir la météo
+                            document.querySelector("form").submit();
+                        })
+                        .catch(error => {
+                            console.error("Erreur lors de la récupération du nom de la ville : " + error.message);
+                        });
+                }, function (error) {
+                    // Gestion des erreurs liées à la géolocalisation
+                    console.error("Erreur de géolocalisation : " + error.message);
+                });
+            } else {
+                // Le navigateur ne prend pas en charge la géolocalisation
+                console.error("La géolocalisation n'est pas prise en charge par votre navigateur.");
+            }
+        }
+
+        // Associer l'événement de clic au lien de localisation actuelle
+        document.getElementById("current-location-link").addEventListener("click", function (event) {
+            event.preventDefault(); // Empêche le comportement par défaut du lien
+            getCurrentLocation(); // Appel de la fonction pour obtenir la localisation actuelle
+        });
+    </script>
+</body>
+</html>
